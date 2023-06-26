@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@400;600&family=Work+Sans:wght@400;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+    
+.container {
+    margin: 0 auto;
+    max-width: 375px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+          
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 350px;
+    max-width: 330px;
+    margin: 10px auto;
+}
+
+label p {
+    margin-bottom: 15px;
+}
+
+.username-container input,
+.password-container input,
+button {
+    padding: 7px;
+    border-radius: 5px;
+    height: 45px;
+
+}
+
+.username-container input {
+    width: 300px;
+}
+
+.input-error {
+    color: red;
+    margin-top: 7px;
+}
+
+.password-container input {
+    width: 220px;
+    margin-right: 20px;
+    
+}
+
+
+.password-container button {
+    color: rgb(0 185 185);
+    background-color: #000;
+    border: 1px solid rgb(0 185 185);
+    min-width: 60px;
+
+}
+
+.login-btn {
+    background-color: rgb(0 185 185);
+    color: white;
+    border: none;
+    width: 300px;
+}
+
+.login-msg {
+    color:  rgb(0 185 185);
+    padding: 7px;
+
+}
+
+
+@media screen and (min-width: 490px){
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 600px;
+        height: 50vh;
+        margin: 200px auto;
+    }
+
+    .form-container {
+        margin: 20px auto;
+    }
+
+    .main-heading {
+        text-align: left;
+        width: 330px;
+     }
+
+    .username-container input,
+    .login-btn {
+        width: 400px;
+    }
+
+    .password-container {
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .password-container input {
+        width: 300px;
+    }
+
+}

@@ -1,0 +1,18 @@
+
+
+.logged-msg {
+    margin: 50px auto;
+    border: 2px dotted grey;
+    border-radius: 7px;
+    background-color: rgb(114, 166, 211);
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+
+}
+
+
+.user {
+    color: rgb(111, 237, 85);
+    font-size: 20px;
+}
